@@ -4,19 +4,21 @@ body{
 }
 .container {
   max-width: 1300px;
-  padding: 0 50px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 
 .calculator {
-  width: 400px;
-  height: 660px;
+  width: 300px;
   border: 1px solid #fff;
   border-radius: 15px;
   background-color: rgb(25, 21, 48);
+  margin: 20px auto;
+  padding-top: 20px;
 }
+
 .calculator-head {
-  padding: 20px;
+  padding: 10px;
 }
 .calculator-head__inp {
   width:100%;
@@ -33,24 +35,24 @@ body{
 .calculator-body {
   display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    padding: 0 15px;
+    gap: 12px;
+    padding: 0 10px 20px;
     margin-top: 50px;
 }
 .wrapp-btn{
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background: blueviolet;
   /* border: 1px solid #fff; */
   border-radius: 20px;
 }
 .number,.ops,.clear {
   font-size: 24px;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   line-height: 40px;
   color: rgb(151, 149, 236);
@@ -65,7 +67,7 @@ body{
 .ops-multiply {
   position: relative;
 }
-.ops-multiply::after{
+/* .ops-multiply::after{
   content: "";
   position: absolute;
   width: 24px;
@@ -84,4 +86,4 @@ body{
   left: 20px;
   background: rgb(151, 149, 236);
   transform: rotate(-45deg);
-}
+} */
